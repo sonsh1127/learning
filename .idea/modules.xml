@@ -4,12 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-intellij-project.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-intellij-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-module/hello-intellij-project-java-module.iml" filepath="$PROJECT_DIR$/.idea/modules/java-module/hello-intellij-project-java-module.iml" group="java-module" />
-      <module fileurl="file://$PROJECT_DIR$/java-module/java-module.iml" filepath="$PROJECT_DIR$/java-module/java-module.iml" group="java-module" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-module/java-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-module/java-module_main.iml" group="java-module" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-module/java-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-module/java-module_test.iml" group="java-module" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-module/kotlin-module.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-module/kotlin-module.iml" group="kotlin-module" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-module/scala-module.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-module/scala-module.iml" group="scala-module" />
-      <module fileurl="file://$PROJECT_DIR$/scala-module/scala-module.iml" filepath="$PROJECT_DIR$/scala-module/scala-module.iml" group="scala-module" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-module/scala-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-module/scala-module_main.iml" group="scala-module" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-module/scala-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-module/scala-module_test.iml" group="scala-module" />
     </modules>

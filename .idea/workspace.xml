@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d4c93e3-bd62-47e8-b435-6a17c1f5f5b6" name="Default" comment="" />
+    <list default="true" id="6d4c93e3-bd62-47e8-b435-6a17c1f5f5b6" name="Default" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java-module/java-module_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java-module/java-module_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java-module/java-module_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java-module/java-module_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Ancestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloReactor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh2$1TwitterSubject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh2$1TwitterSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/JavaNewDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/JavaNewDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/MemoryStudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/RegExpLearningTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/RegExpLearningTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/main/java/Completable.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/main/java/Completable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ListApiLearningTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ListApiLearningTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Blah$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Blah.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/CaseClassLearningTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/CaseClassLearningTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/CaseClassLearningTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Chopstick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Counting$1Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Counting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Doubling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Email$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/GenericClass$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/GenericClass$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/GenericClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Increment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/JavaGenericIsOnlyCompileTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/JavaMultipleInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/JavaThreadStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Myclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Notification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ObjectLearningTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ObjectLearningTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ObjectLearningTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Phliosoper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Puzzle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Puzzle$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Puzzle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpLearningTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/SMS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/SMS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ScalaBookCh1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Twice$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Twice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/VoiceRecording$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/VoiceRecording.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/currency/MoneyTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -35,7 +104,37 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="eamon-prod" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="eamon-prod" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="eamon-prod" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="eamon: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="eamon-prod" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="eamon: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="EAMON_API_APPLICATION: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="eamon-prod" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="eamon: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="EAMON_BATCH_AUTH_TOKEN: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ExternalProjectsData">
@@ -70,64 +169,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloRxJavaCh1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh1.java">
+      <file leaf-file-name="Foo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/spring/Foo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloRxJavaCh2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloReactor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloReactor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloReactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2461#2462#0" expanded="true" />
-                <element signature="e#2500#2501#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaNewDate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/JavaNewDate.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloAkka.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/akka/HelloAkka.scala">
+      <file leaf-file-name="gradle.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/currency/Bank.scala">
+      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
@@ -135,41 +214,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Completable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/Completable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalDateTime.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="309" column="32" selection-start-line="309" selection-start-column="32" selection-end-line="309" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemporalAccessor.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/time/temporal/TemporalAccessor.java">
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instant.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/time/Instant.java">
+      <file leaf-file-name="HelloRxJavaCh1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+            <state relative-caret-position="442">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloRxJavaCh3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
-                <element signature="e#0#61617#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/Observable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123624">
+              <caret line="7272" column="19" selection-start-line="7272" selection-start-column="19" selection-end-line="7272" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloRxJavaCh2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3757">
+              <caret line="245" column="39" selection-start-line="245" selection-start-column="39" selection-end-line="245" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -201,13 +289,17 @@
       <find>object Gr</find>
       <find>Bank</find>
       <find>Coffee</find>
+      <find>connec</find>
+      <find>nQueens</find>
+      <find>dela</find>
+      <find>delay</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../play-scala-starter-example" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -551,82 +643,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/kotlin-module">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':kotlin-module'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':kotlin-module'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':kotlin-module'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':kotlin-module'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':kotlin-module'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':kotlin-module'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':kotlin-module'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':kotlin-module'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':kotlin-module'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/kotlin-module" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/scala-module">
           <value>
             <list>
@@ -782,9 +798,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6081218896000" />
+        <entry key="$PROJECT_DIR$" value="6081736975000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3033633905" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1870990135" />
         <entry key="$PROJECT_DIR$/currency-module/build.gradle" value="2319723621" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1437029736" />
@@ -991,20 +1007,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch13.scala" />
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch15.scala" />
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Main.scala" />
-        <option value="$PROJECT_DIR$/scala-module/src/test/scala/CurryTest$.java" />
-        <option value="$PROJECT_DIR$/scala-module/src/test/scala/GenericClass.scala" />
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch19.scala" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/AsyncCallback.java" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/AsyncCallback.java" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/AsyncResult.java" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/AsyncExecutor.java" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/ThreadAsyncExecutor.java" />
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch172.scala" />
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch171.scala" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/AsyncMethodTest.java" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch20.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/ScalaBookCurrency.scala" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/HelloRxJava.java" />
@@ -1012,13 +1014,11 @@
         <option value="$PROJECT_DIR$/scala-module/src/test/scala/currency/Bank.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/currency/Experssion.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/test/scala/JavaMultipleInheritance.java" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/HelloWorld.java" />
         <option value="$PROJECT_DIR$/scala-module/src/test/scala/currency/Sum.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/currency/DollarTest.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/akka/Test.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/Hello.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/akka/Hello.scala" />
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/akka/HelloAkka.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/currency/Bank.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/currency/Dollar.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/currency/Expression.scala" />
@@ -1028,20 +1028,36 @@
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/NQueens.scala" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/ImperativeNQueens.java" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/ImperativeNQueens.scala" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/RegExpLearningTest.java" />
         <option value="$PROJECT_DIR$/scala-module/src/test/scala/currency/DollarTest.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/slick/FirstExample.scala" />
-        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch23.scala" />
         <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/ListApiLearningTest.scala" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/HelloReactorCh1.java" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/HelloReactor.java" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/HelloRxJava.java" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/HelloRxJavaCh1.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/HelloRxJavaCh2.java" />
-        <option value="$PROJECT_DIR$/java-module/src/main/java/JavaNewDate.java" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/Completable.java" />
         <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/HelloReactor.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/RxJavaApplication.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/spring/CotextConfig.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/spring/ContextConfig.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/spring/RxJavaApplication.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/spring/Foo.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh2.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/spring/Bar.java" />
+        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch23.scala" />
+        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch24Traversable.scala" />
+        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch24Iterable.scala" />
+        <option value="$PROJECT_DIR$/scala-module/src/main/scala/scalabook/CH25.scala" />
+        <option value="$PROJECT_DIR$/scala-module/src/main/scala/akka/HelloAkka.scala" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/RegExpLearningTest.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/JavaNewDate.java" />
+        <option value="$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh3.java" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1050,6 +1066,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -1125,9 +1147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1135,98 +1154,13 @@
               <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reactive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="akka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="currency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scalabook" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1245,16 +1179,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.kakao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scala-module/src/test/scala" />
-      <recent name="$PROJECT_DIR$/scala-module/src/main/scala" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="com.kakao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-      <recent name="com.kakao" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scala-module/src/test/scala" />
+      <recent name="$PROJECT_DIR$/scala-module/src/main/scala" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1269,25 +1206,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaNewDate.instantiate">
+  <component name="RunManager" selected="JUnit.HelloRxJavaCh3.delay">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="HelloRxJavaCh2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reactive.HelloRxJavaCh2" />
-      <module name="java-module_main" />
+    <configuration name="Ch24Iterable" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scalabook.Ch24Iterable" />
+      <module name="scala-module_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalabook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="HelloRxJavaCh2.betterInfiniteStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloRxJavaCh3.delay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-module_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reactive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="reactive" />
-      <option name="MAIN_CLASS_NAME" value="reactive.HelloRxJavaCh2" />
-      <option name="METHOD_NAME" value="betterInfiniteStream" />
+      <option name="MAIN_CLASS_NAME" value="reactive.HelloRxJavaCh3" />
+      <option name="METHOD_NAME" value="delay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1298,13 +1247,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HelloRxJavaCh2.createFactoryMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloRxJavaCh3.delayAndFlatMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-module_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reactive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="reactive" />
-      <option name="MAIN_CLASS_NAME" value="reactive.HelloRxJavaCh2" />
-      <option name="METHOD_NAME" value="createFactoryMethod" />
+      <option name="MAIN_CLASS_NAME" value="reactive.HelloRxJavaCh3" />
+      <option name="METHOD_NAME" value="delayAndFlatMap" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1315,13 +1270,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HelloRxJavaCh2.timerAndInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloRxJavaCh3.flatMapAndSeq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-module_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reactive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="reactive" />
-      <option name="MAIN_CLASS_NAME" value="reactive.HelloRxJavaCh2" />
-      <option name="METHOD_NAME" value="timerAndInterval" />
+      <option name="MAIN_CLASS_NAME" value="reactive.HelloRxJavaCh3" />
+      <option name="METHOD_NAME" value="flatMapAndSeq" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1332,13 +1293,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JavaNewDate.instantiate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegExpLearningTest.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-module_main" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JavaNewDate" />
-      <option name="METHOD_NAME" value="instantiate" />
+      <option name="MAIN_CLASS_NAME" value="RegExpLearningTest" />
+      <option name="METHOD_NAME" value="simpleTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1364,6 +1325,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="kotlin-module" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1401,19 +1372,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HelloRxJavaCh2.betterInfiniteStream" />
-      <item itemvalue="JUnit.HelloRxJavaCh2.createFactoryMethod" />
-      <item itemvalue="Application.HelloRxJavaCh2" />
-      <item itemvalue="JUnit.HelloRxJavaCh2.timerAndInterval" />
-      <item itemvalue="JUnit.JavaNewDate.instantiate" />
+      <item itemvalue="Application.Ch24Iterable" />
+      <item itemvalue="JUnit.RegExpLearningTest.simpleTest" />
+      <item itemvalue="JUnit.HelloRxJavaCh3.delay" />
+      <item itemvalue="JUnit.HelloRxJavaCh3.delayAndFlatMap" />
+      <item itemvalue="JUnit.HelloRxJavaCh3.flatMapAndSeq" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JavaNewDate.instantiate" />
-        <item itemvalue="JUnit.HelloRxJavaCh2.timerAndInterval" />
-        <item itemvalue="JUnit.HelloRxJavaCh2.betterInfiniteStream" />
-        <item itemvalue="Application.HelloRxJavaCh2" />
-        <item itemvalue="JUnit.HelloRxJavaCh2.createFactoryMethod" />
+        <item itemvalue="JUnit.HelloRxJavaCh3.delay" />
+        <item itemvalue="JUnit.HelloRxJavaCh3.flatMapAndSeq" />
+        <item itemvalue="JUnit.HelloRxJavaCh3.delayAndFlatMap" />
+        <item itemvalue="JUnit.RegExpLearningTest.simpleTest" />
+        <item itemvalue="Application.Ch24Iterable" />
       </list>
     </recent_temporary>
   </component>
@@ -1482,7 +1453,12 @@
       <workItem from="1524058268758" duration="133000" />
       <workItem from="1524058475592" duration="1124000" />
       <workItem from="1524059855138" duration="15182000" />
-      <workItem from="1524456045495" duration="6781000" />
+      <workItem from="1524456045495" duration="30964000" />
+      <workItem from="1525240884193" duration="614000" />
+      <workItem from="1525245526138" duration="23361000" />
+      <workItem from="1525530633024" duration="653000" />
+      <workItem from="1525531298184" duration="229000" />
+      <workItem from="1525571612190" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1524648575552</created>
@@ -1491,43 +1467,50 @@
       <option name="project" value="LOCAL" />
       <updated>1524648575552</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1525571681656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525571681656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloRxJavaCh2_betterInfiniteStream - 2018.04.22 at 12h 36m 50s.xml">
-      <configuration name="HelloRxJavaCh2.betterInfiniteStream" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 11h 18m 34s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloRxJavaCh2_betterInfiniteStream - 2018.04.22 at 12h 37m 16s.xml">
-      <configuration name="HelloRxJavaCh2.betterInfiniteStream" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 11h 19m 07s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloRxJavaCh2_betterInfiniteStream - 2018.04.22 at 12h 37m 53s.xml">
-      <configuration name="HelloRxJavaCh2.betterInfiniteStream" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 11h 22m 40s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloRxJavaCh2_betterInfiniteStream - 2018.04.22 at 12h 38m 33s.xml">
-      <configuration name="HelloRxJavaCh2.betterInfiniteStream" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 11h 23m 05s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloRxJavaCh2_betterInfiniteStream - 2018.04.22 at 12h 38m 44s.xml">
-      <configuration name="HelloRxJavaCh2.betterInfiniteStream" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 18h 28m 41s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloRxJavaCh2_betterInfiniteStream - 2018.04.22 at 12h 39m 07s.xml">
-      <configuration name="HelloRxJavaCh2.betterInfiniteStream" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 18h 31m 00s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloRxJavaCh2_timerAndInterval - 2018.04.22 at 12h 56m 38s.xml">
-      <configuration name="HelloRxJavaCh2.timerAndInterval" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 18h 32m 04s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaNewDate_instantiate - 2018.04.24 at 10h 33m 59s.xml">
-      <configuration name="JavaNewDate.instantiate" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 18h 40m 08s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaNewDate_instantiate - 2018.04.24 at 10h 34m 50s.xml">
-      <configuration name="JavaNewDate.instantiate" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_flatMapAndSeq - 2018.05.05 at 18h 46m 55s.xml">
+      <configuration name="HelloRxJavaCh3.flatMapAndSeq" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaNewDate_instantiate - 2018.04.24 at 10h 36m 24s.xml">
-      <configuration name="JavaNewDate.instantiate" configurationId="JUnit" />
+    <history-entry file="HelloRxJavaCh3_delay - 2018.05.05 at 23h 33m 50s.xml">
+      <configuration name="HelloRxJavaCh3.delay" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435295000" />
+    <option name="totallyTimeSpent" value="484676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1542,79 +1525,46 @@
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Key Promoter X" order="3" />
+      <window_info anchor="right" id="Key Promoter X" order="14" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="sbt" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.509768" side_tool="true" weight="0.32914045" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="right" id="Mongo Explorer" order="4" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
-      <window_info id="Structure" order="6" sideWeight="0.49472097" side_tool="true" weight="0.24297924" />
-      <window_info anchor="right" id="News Feed" order="4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.497558" weight="0.39927405" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.495116" weight="0.32914045" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.45115995" weight="0.3275862" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46092796" weight="0.33575317" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.497558" weight="0.32914045" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.490232" visible="true" weight="0.25862068" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49375" visible="true" weight="0.1687966" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
-      <window_info anchor="bottom" id="Reviews" order="8" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.21033014" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="5" sideWeight="0.50527906" side_tool="true" weight="0.24345239" />
-      <window_info anchor="right" id="SBT" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.32983193" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46092796" weight="0.336478" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="5" sideWeight="0.50527906" side_tool="true" weight="0.24345239" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.490232" weight="0.25890985" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="SBT" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.509768" side_tool="true" weight="0.32914045" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.45115995" visible="true" weight="0.32809225" />
+      <window_info anchor="right" id="sbt" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.51331204" side_tool="true" visible="true" weight="0.25862068" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32960597" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Mongo Explorer" order="11" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32960597" />
+      <window_info id="Structure" order="6" sideWeight="0.49472097" side_tool="true" weight="0.24297924" />
+      <window_info anchor="right" id="News Feed" order="13" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.497558" weight="0.39927405" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.495116" weight="0.32914045" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.45953143" weight="0.33575317" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49574015" weight="0.32849365" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48668796" visible="true" weight="0.25862068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49375" visible="true" weight="0.1687966" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Reviews" order="13" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.21033014" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" sideWeight="0.50527906" side_tool="true" weight="0.24345239" />
+      <window_info anchor="right" id="SBT" order="12" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.49946752" weight="0.32940108" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Key Promoter X" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.497558" weight="0.32914045" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="News Feed" order="12" />
-      <window_info anchor="right" id="Gradle" order="9" visible="true" weight="0.21062271" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49375" visible="true" weight="0.25885227" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.495116" weight="0.32914045" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Reviews" order="11" />
-      <window_info id="Structure" order="6" sideWeight="0.49472097" weight="0.24345239" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.497558" weight="0.39937106" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45115995" weight="0.3275862" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32940108" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1641,7 +1591,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh3.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1654,213 +1612,52 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/HelloWorld.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/ObservableOnSubscribe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/akka/Test.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/akka/Hello.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch18.scala">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/fb592a3d57b11e71eb7a6211dd12ba824c5dd037/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.5.11/992dd7480ddd9a85a9df71265ecadf616b33b0bd/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/Props.scala">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="123">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.5.11/992dd7480ddd9a85a9df71265ecadf616b33b0bd/akka-actor_2.12-2.5.11-sources.jar!/akka/actor/Actor.scala">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/subjects/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1262">
-          <caret line="627" column="26" selection-start-line="627" selection-start-column="26" selection-end-line="627" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/currency/Dollar.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/currency/Expression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/currency/Sum.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8412">
-          <caret line="1087" column="17" selection-start-line="1087" selection-start-column="17" selection-end-line="1087" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/math/Ordering.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4182">
-          <caret line="253" column="18" selection-start-line="253" selection-start-column="18" selection-end-line="253" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/Predef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9775">
-          <caret line="590" column="23" selection-start-line="590" selection-start-column="23" selection-end-line="590" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/math/Ordered.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch21.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/immutable/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6800">
-          <caret line="409" column="28" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/immutable/ListMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch22.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/Array.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="278" column="6" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/immutable/Range.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8059">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/ImperativeNQueens.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/slick/FirstExample.scala" />
-    <entry file="file://$PROJECT_DIR$/scala-module/src/test/scala/currency/DollarTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="353">
           <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/RegExpLearningTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/fb592a3d57b11e71eb7a6211dd12ba824c5dd037/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Subscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/ObservableSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/test/scala/Phliosoper.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/fb592a3d57b11e71eb7a6211dd12ba824c5dd037/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Publisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/test/scala/Puzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/ScalaControl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/pattern/asyncmethod/ImperativeNQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/TraversableLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11883">
-          <caret line="710" column="6" selection-start-line="710" selection-start-column="6" selection-end-line="710" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch23.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/ListApiLearningTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="221">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1871,146 +1668,317 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/ObservableOnSubscribe.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/disposables/Disposable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/ObservableEmitter.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/observables/ConnectableObservable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="228">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/Observable.java">
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/spring/ContextConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28730">
-          <caret line="1722" column="36" selection-start-line="1722" selection-start-column="36" selection-end-line="1722" selection-end-column="36" />
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/subjects/Subject.java">
+    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch23.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="2822">
+          <caret line="166" column="29" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-stream/4.0.6/48484d20fe65f0af745b1e5cea8173c5b5d9610d/twitter4j-stream-4.0.6-sources.jar!/twitter4j/StreamListener.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="1836">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-stream/4.0.6/48484d20fe65f0af745b1e5cea8173c5b5d9610d/twitter4j-stream-4.0.6-sources.jar!/twitter4j/TwitterStream.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/mutable/Map.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="1241">
+          <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/Map.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/mutable/ArrayOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1516">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/mutable/SynchronizedMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/DelayedInit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b6444339-b442-4ff9-bc3f-0a9d429d66b8/schema/eamon/table/EAMON_API_APPLICATION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b6444339-b442-4ff9-bc3f-0a9d429d66b8/schema/eamon/table/EAMON_BATCH_AUTH_TOKEN">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch24Iterable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/generic/SeqFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/mutable/Buffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/mutable/BufferLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/generic/GenericTraversableTemplate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2861">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/parallel/mutable/ParArray.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/mutable/ArrayBuffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/mutable/Builder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch24Traversable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/CH25.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="3909" column="58" lean-forward="true" selection-start-line="3909" selection-start-column="58" selection-end-line="3909" selection-end-column="58" />
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/time/Instant.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/Traversable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#61617#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/time/temporal/TemporalAccessor.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.4/cf0a248c2c35f44dd24a44f50056606450980f33/scala-library-2.12.4-sources.jar!/scala/collection/TraversableLike.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="425">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.5.RELEASE/b5a68feabefd72b065698ffe024368703e44b4a2/reactor-core-3.1.5.RELEASE-sources.jar!/reactor/core/publisher/BufferOverflowStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="309" column="32" selection-start-line="309" selection-start-column="32" selection-end-line="309" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/JavaNewDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/akka/HelloAkka.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/currency/Bank.scala">
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/JavaNewDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/RegExpLearningTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-module/src/main/java/Completable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/spring/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/spring/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+        <state relative-caret-position="3757">
+          <caret line="245" column="39" selection-start-line="245" selection-start-column="39" selection-end-line="245" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.11/71034e991163c71e6859fddce9444ab7e77d5ff9/rxjava-2.1.11-sources.jar!/io/reactivex/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123624">
+          <caret line="7272" column="19" selection-start-line="7272" selection-start-column="19" selection-end-line="7272" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloRxJavaCh3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/spring/RxJavaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloReactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
