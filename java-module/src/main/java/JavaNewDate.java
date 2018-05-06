@@ -10,10 +10,5 @@ public class JavaNewDate {
         LocalDate date1 = LocalDate.parse("2018-11-17");
         LocalTime time = LocalTime.of(06, 10);
         LocalTime time1 = LocalTime.parse("06:10");
-
-
     }
-
-
-
 }

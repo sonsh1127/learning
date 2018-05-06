@@ -5,11 +5,13 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 import io.reactivex.Observable;
 import io.reactivex.Single;
 import io.reactivex.disposables.Disposable;
+import io.reactivex.observables.ConnectableObservable;
 import io.reactivex.subjects.PublishSubject;
 import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.Test;
 import twitter4j.StallWarning;
 import twitter4j.Status;
@@ -33,6 +35,44 @@ public class HelloRxJavaCh2 {
         randomNumbers.subscribe(System.out::println);
     }
 
+    Observable<Integer> intObservable = Observable.create(sub -> {
+        System.out.println("Connected");
+        AtomicInteger integer = new AtomicInteger(0);
+        Runnable r = () -> {
+            while (!sub.isDisposed()) {
+                sub.onNext(integer.incrementAndGet());
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+        sub.setCancellable(() -> System.out.println("Canceled"));
+        new Thread(r).start();
+    });
+
+    @Test
+    public void refCount() {
+
+        Observable<Integer> lazy = intObservable.publish().refCount();
+
+        System.out.println(lazy.getClass().getName());
+
+        intObservable.doOnNext((v) -> System.out.println("do On Next")).subscribe();
+
+
+        //intObservable.subscribe(v -> log("subscriber1 "+v));
+        //intObservable.subscribe(v -> log("subscriber2 "+v));
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
+    }
 
     @Test
     public void betterInfiniteStream() {
@@ -90,17 +130,14 @@ public class HelloRxJavaCh2 {
 
                     @Override
                     public void onDeletionNotice(StatusDeletionNotice statusDeletionNotice) {
-
                     }
 
                     @Override
                     public void onTrackLimitationNotice(int numberOfLimitedStatuses) {
-
                     }
 
                     @Override
                     public void onScrubGeo(long userId, long upToStatusId) {
-
                     }
 
                     @Override
@@ -121,6 +158,84 @@ public class HelloRxJavaCh2 {
         }
 
     }
+
+    @Test
+    public void tweeterObserver() {
+        Observable<Status> tweeterObserver = Observable.create(subscriber -> {
+            TwitterStream twitterStream = new TwitterStreamFactory().getInstance();
+            twitterStream.addListener(
+                    new StatusListener() {
+                        @Override
+                        public void onStatus(Status status) {
+                            if (subscriber.isDisposed()){
+                                twitterStream.shutdown();
+                            }else{
+                                subscriber.onNext(status);
+                            }
+                        }
+
+                        @Override
+                        public void onDeletionNotice(StatusDeletionNotice statusDeletionNotice) {
+
+                        }
+
+                        @Override
+                        public void onTrackLimitationNotice(int numberOfLimitedStatuses) {
+
+                        }
+
+                        @Override
+                        public void onScrubGeo(long userId, long upToStatusId) {
+
+                        }
+
+                        @Override
+                        public void onStallWarning(StallWarning warning) {
+
+                        }
+
+                        @Override
+                        public void onException(Exception ex) {
+                            if (subscriber.isDisposed()){
+                                twitterStream.shutdown();
+                            }else{
+                                subscriber.onError(ex);
+                            }
+                        }
+                    }
+            );
+
+            subscriber.setCancellable(()-> {
+                twitterStream.shutdown();
+            });
+        });
+
+        Disposable sub1 = tweeterObserver.subscribe();
+        System.out.println("subscribed 1");
+        Disposable sub2 = tweeterObserver.subscribe();
+        System.out.println("subscribed 2");
+        sub1.dispose();
+        System.out.println("Unsubscribed 1");
+        sub2.dispose();
+        System.out.println("Unsubscribed 2");
+
+        tweeterObserver.publish().refCount();
+    }
+
+
+    @Test
+    public void connectableObservable() {
+        ConnectableObservable<Integer> publish = intObservable.publish();
+        publish.subscribe(v -> log(v));
+        publish.connect();
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     public static void main(String[] args) {
         Observable<String> delayed = delayed("name");
@@ -154,8 +269,6 @@ public class HelloRxJavaCh2 {
             // do nothing
         }
     }
-
-
 }
 
 interface StudentRepository {

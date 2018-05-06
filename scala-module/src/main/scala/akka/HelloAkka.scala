@@ -4,11 +4,6 @@ import akka.Greeter.{Greet, WhoToGreet}
 import akka.Printer.Greeting
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
 
-class HelloAkka {
-
-}
-
-
 object Greeter {
   def props(message: String, printerActor: ActorRef) : Props
   = Props(new Greeter(message, printerActor))
@@ -18,7 +13,6 @@ object Greeter {
 
 class Greeter(message: String, printerActor: ActorRef) extends Actor{
   var greeting = ""
-
   override def receive = {
     case WhoToGreet(who) => greeting = s"$message, $who"
     case Greet => printerActor ! Greeting(greeting)

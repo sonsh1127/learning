@@ -12,6 +12,5 @@ public class RegExpLearningTest {
         while (matcher.find()) {
             System.out.println(matcher.start() + " " +  matcher.end() + " "+ matcher.group());
         }
-
     }
 }
