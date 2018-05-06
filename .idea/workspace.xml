@@ -1,75 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d4c93e3-bd62-47e8-b435-6a17c1f5f5b6" name="Default" comment="initial commit">
+    <list default="true" id="6d4c93e3-bd62-47e8-b435-6a17c1f5f5b6" name="Default" comment="class file delete">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/java-module/java-module_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java-module/java-module_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/java-module/java-module_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java-module/java-module_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Ancestor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloReactor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh2$1TwitterSubject$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh2$1TwitterSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloRxJavaCh2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/JavaNewDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/JavaNewDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/MemoryStudentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/RegExpLearningTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/RegExpLearningTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/StudentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/main/java/Completable.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-module/out/production/classes/main/java/Completable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ListApiLearningTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ListApiLearningTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Blah$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Blah.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/CaseClassLearningTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/CaseClassLearningTest$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/CaseClassLearningTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Chopstick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Counting$1Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Counting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Doubling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Email$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Email.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/GenericClass$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/GenericClass$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/GenericClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Increment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/JavaGenericIsOnlyCompileTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/JavaMultipleInheritance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/JavaThreadStart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Myclass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ObjectLearningTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ObjectLearningTest$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ObjectLearningTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Phliosoper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Puzzle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Puzzle$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Puzzle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpLearningTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpTest$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/RegExpTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/SMS$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/SMS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/ScalaBookCh1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Twice$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/Twice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/VoiceRecording$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/VoiceRecording.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala-module/out/test/classes/currency/MoneyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/JavaNewDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/RegExpLearningTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/main/java/Completable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/pattern/asyncmethod/AsyncCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/pattern/asyncmethod/AsyncExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/pattern/asyncmethod/AsyncMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/pattern/asyncmethod/AsyncResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/pattern/asyncmethod/ImperativeNQueens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/pattern/asyncmethod/ThreadAsyncExecutor$CompletableResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-module/out/production/classes/pattern/asyncmethod/ThreadAsyncExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/AkkaQuickstart$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/AkkaQuickstart$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/AkkaQuickstart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Greeter$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Greeter$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Greeter$Greet$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Greeter$WhoToGreet$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Greeter$WhoToGreet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Greeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/HelloAkka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Printer$$anonfun$receive$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Printer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Printer$Greeting$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Printer$Greeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/akka/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/bobdelishts/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/bobdelishts/Fruits$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/bobdelishts/Fruits$Apple$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/bobdelishts/Fruits$Orange$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/bobdelishts/Fruits$Pair$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/bobdelishts/Fruits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/currency/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/currency/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/currency/Money$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/currency/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/currency/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Abstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/AbstractTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/AbstractTime2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/BasicCircuitSimulation$Wire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/BasicCircuitSimulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/BasicIntQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/BinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/BinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch10$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch12Trait$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch12Trait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch14$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch15$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch15$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch16$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch162$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch162.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch17$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch171.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch172$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch172.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch19$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch20$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch21$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch21$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23$MyPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Ch9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/CircutSimulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Color$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Concrete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ConversionTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ConversionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Converter$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Cow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/CurrencyRunner$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/CurrencyRunner$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/CurrencyRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/CurrencyZone$AbstractCurrency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/CurrencyZone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Customer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Customer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/DecomposeType$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/DecomposeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Demo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/DemoRunner$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/DemoRunner$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/DemoRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Doubling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Driver$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Element$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Element$ArrayElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Element$LineElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Element$UniformElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/EnumTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/EnumTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/EnumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Europe$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Europe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Europe$Euro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Europe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ExprFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileIo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileIo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileMatcher1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileMatcher1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileMatcher2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileMatcher2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileMatcher3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FileMatcher3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Filtering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FruitTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FruitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/FunctionalNQueens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Grass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Greeter1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Greeter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Helpers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Helpers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ImperativeNQueens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ImplicitParamTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ImplicitParamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Incrementing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/IntQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/LazyDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/LazyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/LazyRationalTrait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Library$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ListApiLearningTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ListApiLearningTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ListApiLearningTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Member$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/MySimulation$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/MySimulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/NQueens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/NQueensTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/NQueensTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Nills$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Nills$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Nills.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Nins1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Number$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/OccursErrorDueToInitializeTiming$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/OccursErrorDueToInitializeTiming$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/OccursErrorDueToInitializeTiming$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/OccursErrorDueToInitializeTiming$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/OccursErrorDueToInitializeTiming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/OptimizedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Orange2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/OutputChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Pasture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Philosophical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/PreferredPrompt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Publication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Queue$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Queue$QueueImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Rational.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/RationalClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/RationalTrait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ScalaBookCurrency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ScalaControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ScalaRandomTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ScalaRandomTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/ShellRationalTrait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Simulation$WorkItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Simulation$WorkItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Simulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Sprial$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Sprial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TestOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TraitMixin$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TraitMixin$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TraitMixin$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TraitMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TupleLearningTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TupleLearningTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/TupleLearningTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/US$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/US$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/US$Dollar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/US.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/UnOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/UnOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Var$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/Var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/bobsrocket/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/bobsrocket/fleets/Fleets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/bobsrocket/launch/Booster2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/bobsrocket/navigation/Navigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/bobsrocket/navigation/StarMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/bobsrocket/navigation/launch/Booster1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/bobsrocket/navigation/test/NavigatorSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/launch/Booster3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/twoThird$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala-module/out/production/classes/scalabook/twoThird.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -169,15 +343,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Foo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/spring/Foo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloReactor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-module/src/main/java/reactive/HelloReactor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -190,17 +355,17 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradle.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gradle.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -219,6 +384,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ch24Iterable.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch24Iterable.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -1154,6 +1328,107 @@
               <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-intellij-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-intellij-project" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scalabook" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1458,7 +1733,7 @@
       <workItem from="1525245526138" duration="23361000" />
       <workItem from="1525530633024" duration="653000" />
       <workItem from="1525531298184" duration="229000" />
-      <workItem from="1525571612190" duration="341000" />
+      <workItem from="1525571612190" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1524648575552</created>
@@ -1474,7 +1749,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525571681656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class file delete">
+      <created>1525572340631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525572340631</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1510,7 +1792,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484676000" />
+    <option name="totallyTimeSpent" value="485284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1547,8 +1829,8 @@
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.45953143" weight="0.33575317" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49574015" weight="0.32849365" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48668796" visible="true" weight="0.25862068" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49375" visible="true" weight="0.1687966" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.48668796" visible="true" weight="0.25862068" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49375" visible="true" weight="0.1687966" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
       <window_info anchor="bottom" id="Reviews" order="13" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.21033014" />
@@ -1587,7 +1869,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="class file delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="class file delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1756,13 +2039,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch24Iterable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1968,17 +2244,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala-module/src/main/scala/scalabook/Ch24Iterable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
       </provider>
     </entry>

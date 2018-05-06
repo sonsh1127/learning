@@ -2,7 +2,6 @@
 .idea/
 .gradle
 build/
-out/
 *.iml
 package-lock.json
 
