@@ -1,4 +1,4 @@
-package reactive;
+package reactive.ch2;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 

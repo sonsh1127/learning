@@ -1,11 +1,8 @@
 package scalabook
 
 class ScalaControl {
-
   val array = Array(1, 2, 10, 4)
-
   def test(i: Int): Boolean = {
-
     for (j <- 0 to i) {
       if (array(i) < 10) {
         return false
@@ -13,8 +10,6 @@ class ScalaControl {
     }
     true
   }
-
-
 }
 
 

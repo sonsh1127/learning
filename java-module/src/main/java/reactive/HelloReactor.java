@@ -34,7 +34,6 @@ public class HelloReactor {
         numbersFromFiveToSeven.subscribe(
                 d -> System.out.println(d)
         );
-
     }
 
     @Test
@@ -80,6 +79,7 @@ public class HelloReactor {
     public static Flux<String> makeFlux(String value){
         return Flux.just(value);
     }
+
     @Test
     public void scheduler() {
         Flux.range(1, 10000)
@@ -91,5 +91,4 @@ public class HelloReactor {
             e.printStackTrace();
         }
     }
-
 }

@@ -1,4 +1,4 @@
-package reactive;
+package reactive.ch1;
 
 import io.reactivex.Observable;
 import org.junit.Test;
@@ -79,11 +79,6 @@ public class HelloRxJavaCh1 {
         ints.subscribe(s -> System.out.println("B: " + s));
         intsCached.subscribe(s -> System.out.println("A1: " + s));
         intsCached.subscribe(s -> System.out.println("B1: " + s));
-    }
-
-    @Test
-    public void testNins() {
-
     }
 
     static <T> Observable<T> just(T t) {
