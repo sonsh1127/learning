@@ -11,6 +11,10 @@ public class JpaMain {
     public static void main(String[] args) {
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa");
+        workWithTransaction(emf);
+    }
+
+    private static void workWithTransaction(EntityManagerFactory emf) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
 

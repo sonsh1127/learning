@@ -1,7 +1,8 @@
 package scalabook
 
-import scala.collection.{IndexedSeqLike, mutable}
+import scala.collection.generic.CanBuildFrom
 import scala.collection.mutable.ArrayBuffer
+import scala.collection.{IndexedSeqLike, MapLike, mutable}
 
 object CH25 extends App {
   // builder
@@ -13,7 +14,6 @@ object CH25 extends App {
   println(array.getClass)
 
 }
-
 
 abstract class Base
 
@@ -75,7 +75,98 @@ object RNA1Test extends App {
 
   val rna2 = RNA2(A, U, G, G, C)
   println(rna2.take(3))
-  println(rna2.filter( U != _))
+  println(rna2.filter(U != _))
+
+  // but ..
+  println(rna2 map { case A => C case b => b })
+
+
+  val rna3 = RNA3(A, U, G, G, C)
+
+  println(rna3 map { case A => C case b => b })
+}
+
+
+final class RNA3 private(val groups: Array[Int], val length: Int) extends IndexedSeq[Base] with IndexedSeqLike[Base, RNA3] {
+
+  import RNA3._
+
+  override def newBuilder: mutable.Builder[Base, RNA3] = RNA3.newBuilder
+
+  def apply(idx: Int): Base = {
+    if (idx < 0 || idx >= length)
+      throw new IndexOutOfBoundsException
+    Base.fromInt(groups(idx / N) >> (idx % N * S) & M)
+  }
+
+  // to implement foreach is not mandatory, but for efficiency
+  override def foreach[U](f: Base => U): Unit = {
+    var i = 0
+    var b = 0
+    while (i < length) {
+      b = if (i % N == 0) groups(i / N) else b >>> S
+      f(Base.fromInt(b & M))
+      i += 1
+    }
+  }
+
+}
+
+
+class PrefixMap[T] extends mutable.Map[String, T] with MapLike[String, T, PrefixMap[T]] {
+
+  var value: Option[T] = None
+
+  var suffixes: scala.collection.immutable.Map[Char, PrefixMap[T]] = Map.empty
+
+  override def get(key: String): Option[T] =
+    if (key.isEmpty) value
+    else suffixes.get(key(0)).map(m => m.get(key.substring(1)).get)
+
+  def withPrefix(s: String): PrefixMap[T] = {
+
+    if (s.isEmpty){
+      this
+    }else{
+      val leading = s(0)
+      val temp = suffixes(leading)
+      //temp ++ withPrefix(s substring(1))
+    }
+  }
+
+  override def iterator: Iterator[(String, T)] = ???
+
+  override def +=(kv: (String, T)): PrefixMap.this.type = ???
+
+  override def -=(key: String): PrefixMap.this.type = ???
+}
+
+object RNA3 {
+
+  private val S = 2
+  private val N = 32 / S
+  private val M = (1 << S) - 1
+
+  def fromSeq(buf: Seq[Base]): RNA3 = {
+    val groups = new Array[Int]((buf.length + N - 1) / N)
+    for (i <- 0 until buf.length)
+      groups(i / N) |= Base.toInt(buf(i)) << (i % N * S)
+
+    new RNA3(groups, buf.length)
+  }
+
+  def apply(bases: Base*) = fromSeq(bases)
+
+
+  def newBuilder: mutable.Builder[Base, RNA3] = new ArrayBuffer mapResult fromSeq
+
+  implicit def canBuildFrom: CanBuildFrom[RNA3, Base, RNA3] =
+    new CanBuildFrom[RNA3, Base, RNA3] {
+      override def apply(from: RNA3): mutable.Builder[Base, RNA3] = newBuilder
+
+      override def apply(): mutable.Builder[Base, RNA3] = newBuilder
+    }
+
 }
 
 
@@ -111,14 +202,6 @@ object RNA2 {
 
 }
 
-class RNA3 {
-
-}
-
-
-object RNA3 {
-
-}
 
 
 
