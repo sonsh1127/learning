@@ -109,11 +109,9 @@ final class RNA3 private(val groups: Array[Int], val length: Int) extends Indexe
       i += 1
     }
   }
-
 }
 
-
-class PrefixMap[T] extends mutable.Map[String, T] with MapLike[String, T, PrefixMap[T]] {
+class PrefixMap[T] extends mutable.Map[String, T] with mutable.MapLike[String, T, PrefixMap[T]] {
 
   var value: Option[T] = None
 
@@ -121,24 +119,50 @@ class PrefixMap[T] extends mutable.Map[String, T] with MapLike[String, T, Prefix
 
   override def get(key: String): Option[T] =
     if (key.isEmpty) value
-    else suffixes.get(key(0)).map(m => m.get(key.substring(1)).get)
+    else suffixes.get(key(0)).flatMap(prefixMap => prefixMap.get(key.substring(1)))
 
   def withPrefix(s: String): PrefixMap[T] = {
-
-    if (s.isEmpty){
+    if (s.isEmpty) {
       this
-    }else{
+    } else {
       val leading = s(0)
-      val temp = suffixes(leading)
-      //temp ++ withPrefix(s substring(1))
+      suffixes get leading match {
+        case None => suffixes = suffixes + (leading -> empty)
+        case _ =>
+      }
+      suffixes(leading) withPrefix (s substring 1)
     }
   }
 
-  override def iterator: Iterator[(String, T)] = ???
+  override def update(s: String, elem: T) = {
+    withPrefix(s).value = Some(elem)
+  }
 
-  override def +=(kv: (String, T)): PrefixMap.this.type = ???
+  override def remove(s: String): Option[T] = {
+    if (s.isEmpty){
+      val res = value
+      value = None
+      res
+    }else{
+      suffixes.get(s(0)).flatMap(prefixMap => prefixMap.remove(s substring(1)))
+    }
+  }
 
-  override def -=(key: String): PrefixMap.this.type = ???
+  override def iterator: Iterator[(String, T)] =
+    (for (v <- value.iterator) yield ("", v)) ++
+      (for ((chr, m) <- suffixes.iterator; (s, v) <- m.iterator) yield (chr +: s, v))
+
+  override def +=(kv: (String, T)): PrefixMap.this.type = {
+    update(kv._1, kv._2)
+    this
+  }
+
+  override def -=(key: String): PrefixMap.this.type = {
+    remove(key)
+    this
+  }
+
+  override def empty = new PrefixMap[T]
 }
 
 object RNA3 {
