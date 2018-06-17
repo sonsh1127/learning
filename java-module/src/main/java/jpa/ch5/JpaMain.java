@@ -1,11 +1,11 @@
 package jpa.ch5;
 
 import java.util.List;
+import javax.persistence.Query;
 import jpa.HibernateTransactionTemplate;
 import org.junit.Test;
 
 public class JpaMain {
-
 
     @Test
     public void testSave() {
@@ -23,6 +23,9 @@ public class JpaMain {
                     Member member2 = new Member("member2", "회원2");
                     member2.setTeam(team1);
                     em.persist(member2);
+
+                    Query query = em.createQuery("");
+                    List resultList = query.getResultList();
                 }
         );
     }

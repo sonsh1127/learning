@@ -1,6 +1,7 @@
 package jpa.ch6;
 
 import javax.persistence.Column;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -18,15 +19,14 @@ public class Delivery extends BaseEntity {
     @Column(name = "DELIVERY_ID")
     private Long id;
 
-    private String street;
-
-    private String zipcode;
-
     @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
 
     @OneToOne(mappedBy = "delivery")
     private Order order;
+
+    @Embedded
+    private Address address;
 
     public Long getId() {
         return id;
@@ -36,20 +36,20 @@ public class Delivery extends BaseEntity {
         this.id = id;
     }
 
-    public String getStreet() {
-        return street;
+    public Order getOrder() {
+        return order;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
+    public void setOrder(Order order) {
+        this.order = order;
     }
 
-    public String getZipcode() {
-        return zipcode;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     public DeliveryStatus getStatus() {
