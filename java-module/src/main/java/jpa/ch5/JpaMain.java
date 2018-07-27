@@ -9,7 +9,6 @@ public class JpaMain {
 
     @Test
     public void testSave() {
-
         HibernateTransactionTemplate htt = new HibernateTransactionTemplate("jpa");
         htt.workWithTransaction(
                 em -> {
@@ -41,5 +40,6 @@ public class JpaMain {
                 }
         );
     }
+
 
 }

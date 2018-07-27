@@ -36,6 +36,23 @@ object ListApiLearningTest extends App{
   thrill.foreach(print)
   print(thrill.map(s => s+ "}"))
 
+  val odds = List(1,3,5)
+  val evens = List(2,4,6)
+  val res = odds.foldLeft(0){
+    (x , y) => {
+      println(s"x = ${x}, y = ${y}")
+      x + y
+    }
+  }
+
+
+
+
+  println(res)
+
+
+
+
   def toCamelCase(str: String) = {
   }
 }

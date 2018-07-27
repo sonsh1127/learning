@@ -14,18 +14,12 @@ public class HibernateTransactionTemplate {
     }
 
     public void workWithTransaction(HibernateTransactionCallback callback){
-
         EntityManager entityManager = emf.createEntityManager();
-
         EntityTransaction transaction = entityManager.getTransaction();
-
         try {
             transaction.begin();
-
             callback.doInTransaction(entityManager);
-
             transaction.commit();
-
         } catch (Exception ex) {
             System.err.println(ex);
             transaction.rollback();
