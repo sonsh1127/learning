@@ -12,7 +12,6 @@ public class ThreadUnSafeCode {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         ExecutorService executorService = Executors.newFixedThreadPool(3);
-//        final StringBuffer sb = new StringBuffer();
         final StringBuilder sb = new StringBuilder();
         Future<?> aResult = executorService.submit(() -> {
             for (int i = 0; i < 100; i++) {
@@ -29,6 +28,7 @@ public class ThreadUnSafeCode {
             }
             return "A";
         });
+
         aResult.get();
         bResult.get();
         String result = sb.toString();

@@ -43,15 +43,7 @@ public class CartesianProduct {
             temp.add(new ArrayList<>());
             return temp;
         } else {
-            /*return makeCartesianProduct(list, i+1).stream().map( subResult -> {
-                return list.get(i).stream().map(curr -> {
-                    List<String> temp = new ArrayList<>(subResult);
-                    temp.add(0, curr);
-                    return temp;
-                }).collect(Collectors.toList());
-            }.collect(Collectors.toList()));*/
             List<List<String>> newResults = new ArrayList<>();
-
             for (String curr : list.get(i)) {
                 for (List<String> subResult : makeCartesianProduct(list, i + 1)) {
                     List<String> temp = new ArrayList<>(subResult);
@@ -59,7 +51,6 @@ public class CartesianProduct {
                     newResults.add(temp);
                 }
             }
-
             return newResults;
         }
     }
