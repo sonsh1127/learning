@@ -1,8 +1,8 @@
-package akka.iot.actor
+package com.kakao.nills.akka.iot.actor
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props, Terminated}
-import akka.iot.actor.DeviceGroup.{ReplyDeviceList, RequestDeviceList}
-import akka.iot.actor.DeviceManager.RequestTrackDevice
+import DeviceGroup.{ReplyDeviceList, RequestDeviceList}
+import DeviceManager.RequestTrackDevice
 
 class DeviceGroup(groupId: String) extends Actor with ActorLogging {
   var deviceIdToActor = Map.empty[String, ActorRef]

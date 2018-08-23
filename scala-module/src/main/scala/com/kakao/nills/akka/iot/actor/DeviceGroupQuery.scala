@@ -1,7 +1,7 @@
-package akka.iot.actor
+package com.kakao.nills.akka.iot.actor
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props, Terminated}
-import akka.iot.actor.DeviceGroupQuery.CollectionTimeout
+import DeviceGroupQuery.CollectionTimeout
 
 import scala.concurrent.duration.FiniteDuration
 

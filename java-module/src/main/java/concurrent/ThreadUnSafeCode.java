@@ -33,9 +33,9 @@ public class ThreadUnSafeCode {
         bResult.get();
         String result = sb.toString();
 
-        for (int i =0; i < result.length() ; i+= 3){
-            String part =  result.substring(i, i+3);
-            if (!"AAA".equals(part) && !"BBB".endsWith(part)){
+        for (int i = 0; i < result.length(); i += 3) {
+            String part = result.substring(i, i + 3);
+            if (!"AAA".equals(part) && !"BBB".endsWith(part)) {
                 System.out.println(part + " " + i + " th part is invalid");
             }
         }

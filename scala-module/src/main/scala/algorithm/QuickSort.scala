@@ -2,7 +2,6 @@ package algorithm
 
 object QuickSort {
 
-
   def sort(list: List[Int]): List[Int] = {
     list match {
       case pivot :: tail => {

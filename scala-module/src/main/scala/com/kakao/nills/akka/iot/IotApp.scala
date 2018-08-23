@@ -1,7 +1,7 @@
-package akka.iot
+package com.kakao.nills.akka.iot
 
 import akka.actor.ActorSystem
-import akka.iot.actor.IotSupervisor
+import com.kakao.nills.akka.iot.actor.IotSupervisor
 
 import scala.io.StdIn
 

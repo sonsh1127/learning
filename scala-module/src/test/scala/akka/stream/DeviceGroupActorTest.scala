@@ -1,10 +1,10 @@
-package akka
+package akka.stream
 
 import java.util.concurrent.TimeUnit
 
 import akka.actor.{ActorSystem, PoisonPill}
-import akka.iot.actor.{Device, DeviceGroup, DeviceManager}
 import akka.testkit.TestProbe
+import com.kakao.nills.akka.iot.actor.{Device, DeviceGroup, DeviceManager}
 import org.junit.Assert.assertNotEquals
 import org.junit.Test
 

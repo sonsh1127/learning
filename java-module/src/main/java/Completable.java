@@ -6,7 +6,6 @@ import java.util.concurrent.Executors;
 
 public class Completable {
 
-
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         CompletableFuture<String> name = CompletableFuture
@@ -21,12 +20,10 @@ public class Completable {
     public static String first(String arg) {
         return arg + "first";
     }
-
     public static String second(String arg) {
         return arg + " second";
     }
     public static String third(String arg) {
-
         return arg + " thrird";
     }
 

@@ -1,4 +1,4 @@
-package akka.iot.actor
+package com.kakao.nills.akka.iot.actor
 
 import akka.actor.{Actor, ActorLogging, Props}
 

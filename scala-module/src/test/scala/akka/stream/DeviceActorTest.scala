@@ -1,12 +1,12 @@
-package akka
+package akka.stream
 
 import java.util.concurrent.TimeUnit
 
 import akka.actor.ActorSystem
-import akka.iot.actor.{Device, DeviceManager}
 import akka.testkit.TestProbe
+import com.kakao.nills.akka.iot.actor.{Device, DeviceManager}
 import org.junit.Assert._
-import org.junit.Test
+import org.junit.{Assert, Test}
 
 import scala.concurrent.duration.FiniteDuration
 

@@ -1,4 +1,4 @@
-package akka
+package com.kakao.nills.akka
 
 import akka.actor.{Actor, ActorSystem, Props}
 

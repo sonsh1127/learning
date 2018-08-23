@@ -1,7 +1,7 @@
-package akka
+package com.kakao.nills.akka
 
-import akka.Greeter.{Greet, WhoToGreet}
-import akka.Printer.Greeting
+import Greeter.{Greet, WhoToGreet}
+import Printer.Greeting
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
 
 object Greeter {
