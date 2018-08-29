@@ -18,13 +18,14 @@ object HttpClientTest {
     implicit val dispatcher = system.dispatcher
     implicit val materializer = ActorMaterializer()
 
+    // future based api u
     val responseFuture: Future[HttpResponse] = Http().singleRequest(HttpRequest(uri = "https://akka.io"))
 
-    responseFuture.map{
+    responseFuture.map {
       response =>
         println(response)
         response.entity.dataBytes.via(Framing.delimiter(ByteString("\n"), maximumFrameLength = 256)).map(s => s ++ ByteString("\n"))
-      .runWith(FileIO.toPath(new File("./ninnede.out").toPath))
+          .runWith(FileIO.toPath(new File("./ninnede.out").toPath))
     }
   }
 }

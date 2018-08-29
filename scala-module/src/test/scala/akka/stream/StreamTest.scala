@@ -30,7 +30,6 @@ class StreamTest {
 
     val result: Future[IOResult] = factorials.map(num => ByteString(s"$num\n")).
       runWith(FileIO.toPath(Paths.get("factorials.txt")))
-
     Await.result(result, Duration.Inf)
     println("write complete")
 

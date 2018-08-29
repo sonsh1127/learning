@@ -1,4 +1,5 @@
 rootProject.name = 'hello-intellij-project'
 include 'scala-module'
 include 'java-module'
-include 'kotlin-module'
+include 'boot-example'
+
