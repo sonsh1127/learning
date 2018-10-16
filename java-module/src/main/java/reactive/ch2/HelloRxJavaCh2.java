@@ -22,20 +22,7 @@ import twitter4j.TwitterStreamFactory;
 
 public class HelloRxJavaCh2 {
 
-    @Test
-    public void wrongInfiniteStream() {
-        Observable<Integer> randomNumbers = Observable.create(sub -> {
-            Random random = new Random();
-            while (true) {
-                sub.onNext(random.nextInt());
-            }
-        });
-
-        // client thread will be blocked due to infinite loop
-        randomNumbers.subscribe(System.out::println);
-    }
-
-    Observable<Integer> intObservable = Observable.create(sub -> {
+    private Observable<Integer> intObservable = Observable.create(sub -> {
         System.out.println("Connected");
         AtomicInteger integer = new AtomicInteger(0);
         Runnable r = () -> {
@@ -53,25 +40,29 @@ public class HelloRxJavaCh2 {
     });
 
     @Test
+    public void wrongInfiniteStream() {
+        Observable<Integer> randomNumbers = Observable.create(sub -> {
+            Random random = new Random();
+            while (true) {
+                sub.onNext(random.nextInt());
+            }
+        });
+
+        // client thread will be blocked due to infinite loop
+        randomNumbers.subscribe(System.out::println);
+    }
+
+    @Test
     public void refCount() {
-
         Observable<Integer> lazy = intObservable.publish().refCount();
-
         System.out.println(lazy.getClass().getName());
-
         intObservable.doOnNext((v) -> System.out.println("do On Next")).subscribe();
-
-
-        //intObservable.subscribe(v -> log("subscriber1 "+v));
-        //intObservable.subscribe(v -> log("subscriber2 "+v));
 
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
     }
 
     @Test
@@ -167,9 +158,9 @@ public class HelloRxJavaCh2 {
                     new StatusListener() {
                         @Override
                         public void onStatus(Status status) {
-                            if (subscriber.isDisposed()){
+                            if (subscriber.isDisposed()) {
                                 twitterStream.shutdown();
-                            }else{
+                            } else {
                                 subscriber.onNext(status);
                             }
                         }
@@ -196,16 +187,16 @@ public class HelloRxJavaCh2 {
 
                         @Override
                         public void onException(Exception ex) {
-                            if (subscriber.isDisposed()){
+                            if (subscriber.isDisposed()) {
                                 twitterStream.shutdown();
-                            }else{
+                            } else {
                                 subscriber.onError(ex);
                             }
                         }
                     }
             );
 
-            subscriber.setCancellable(()-> {
+            subscriber.setCancellable(() -> {
                 twitterStream.shutdown();
             });
         });
@@ -271,30 +262,3 @@ public class HelloRxJavaCh2 {
     }
 }
 
-interface StudentRepository {
-
-    Student findById(Long id);
-}
-
-class MemoryStudentRepository implements StudentRepository {
-
-    private ConcurrentMap<Long, Student> students = new ConcurrentHashMap<>();
-
-    @Override
-    public Student findById(Long id) {
-        return students.get(id);
-    }
-}
-
-class Student {
-
-    private long id;
-    private String name;
-    private int score;
-
-    public Student(long id, String name, int score) {
-        this.id = id;
-        this.name = name;
-        this.score = score;
-    }
-}

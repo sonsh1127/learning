@@ -5,5 +5,7 @@ build/
 *.iml
 package-lock.json
 
+**/test.properties
+
 *.class
 *.log

@@ -3,6 +3,9 @@ package com.kakao.nills.akka
 import Greeter.{Greet, WhoToGreet}
 import Printer.Greeting
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
+import akka.dispatch.Dispatcher
+
+import scala.concurrent.duration.Duration
 
 object Greeter {
   def props(message: String, printerActor: ActorRef) : Props
@@ -36,8 +39,15 @@ class Printer extends Actor with ActorLogging {
 object AkkaQuickstart extends App {
   import Greeter._
 
+
+  lazy val name  = {
+    println("initializing")
+    "ninn"
+  };
+
   // Create the 'helloAkka' actor system
-  val system: ActorSystem = ActorSystem("helloAkka")
+  val system: ActorSystem = ActorSystem("Eamon")
+  val system2: ActorSystem = ActorSystem("Eamon")
 
   // Create the printer actor
   val printer: ActorRef = system.actorOf(Printer.props, "printerActor")
@@ -61,5 +71,25 @@ object AkkaQuickstart extends App {
 
   goodDayGreeter ! WhoToGreet("Play")
   goodDayGreeter ! Greet
+
+  println("sd")
+
+  if (name == null){
+    println("not initialized ")
+
+  }else {
+    println("already initialized")
+  }
+
+
+
+  //val dispatcher = system.dispatcher.asInstanceOf[Dispatcher]
+
+  Thread.sleep(60 * 1000 )
+  system.terminate();
+  println("");
+
+
+
 }
 

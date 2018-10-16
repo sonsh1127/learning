@@ -80,12 +80,4 @@ public class HelloRxJavaCh1 {
         intsCached.subscribe(s -> System.out.println("A1: " + s));
         intsCached.subscribe(s -> System.out.println("B1: " + s));
     }
-
-    static <T> Observable<T> just(T t) {
-        return Observable.create(sub -> {
-            sub.onNext(t);
-            sub.onComplete();
-        });
-    }
-
 }

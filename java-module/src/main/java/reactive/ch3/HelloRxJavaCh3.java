@@ -10,23 +10,26 @@ import io.reactivex.Observable;
 import io.reactivex.Single;
 import io.reactivex.disposables.Disposable;
 import java.math.BigInteger;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import org.junit.Test;
+import reactive.common.Pair;
 
 public class HelloRxJavaCh3 {
 
     // rx operators
     @Test
     public void delay() {
+        System.out.println("Start Test : " + LocalDateTime.now());
         just("X", "Y", "Z")
                 .delay(1, TimeUnit.SECONDS)
                 .subscribe(t -> {
                     System.out.println(
-                            Thread.currentThread().getName() + " : " + System.currentTimeMillis()
+                            Thread.currentThread().getName() + " : " + LocalDateTime.now()
                                     + " " + t);
                 });
 
@@ -36,11 +39,12 @@ public class HelloRxJavaCh3 {
             e.printStackTrace();
         }
 
+        System.out.println("Start Second Test : " + LocalDateTime.now());
         timer(1, TimeUnit.SECONDS).
                 flatMap(i -> just("X", "Y", "Z"))
                 .subscribe(t -> {
                     System.out.println(
-                            Thread.currentThread().getName() + " : " + System.currentTimeMillis()
+                            Thread.currentThread().getName() + " : " + LocalDateTime.now()
                                     + " " + t);
                 });
         try {
@@ -49,11 +53,12 @@ public class HelloRxJavaCh3 {
             e.printStackTrace();
         }
 
+        System.out.println("Start Third Test : " + LocalDateTime.now());
         interval(1, TimeUnit.SECONDS).
                 flatMap(i -> just("X", "Y", "Z"))
                 .subscribe(t -> {
                     System.out.println(
-                            Thread.currentThread().getName() + " : " + System.currentTimeMillis()
+                            Thread.currentThread().getName() + " : " + LocalDateTime.now()
                                     + " " + t);
                 });
         try {
@@ -69,7 +74,7 @@ public class HelloRxJavaCh3 {
         just("Loream", "insum", "dolor", "sit", "amet", "consectetur", "adipsiscing",
                 "elit")
                 .delay(word -> timer(word.length(), TimeUnit.SECONDS))
-                .subscribe(System.out::println);
+                .subscribe(x -> System.out.println(x + " " + Thread.currentThread().getName() + " " + LocalDateTime.now()));
 
         sleepForSeconds(15);
 
@@ -114,11 +119,14 @@ public class HelloRxJavaCh3 {
 
         sleepForSeconds(10);
 
+    }
+
+    @Test
+    public void flatMapWithMaxConcurrent() {
         // flatMap with maxConcurrent
         List<User> manyUsers = new ArrayList<>();
         Observable<Profile> profiles = Observable.fromIterable(manyUsers).flatMap(User::loadProfile,
                 10);
-
 
     }
 
@@ -351,7 +359,7 @@ public class HelloRxJavaCh3 {
                 .scan((total, current) -> total + current);
 
         return words.zipWith(absoluteDelay.startWith(0L), Pair::of)
-                .flatMap(p -> just(p.left).delay(p.right.longValue(), TimeUnit.MILLISECONDS));
+                .flatMap(p -> just(p.getLeft()).delay(p.getRight().longValue(), TimeUnit.MILLISECONDS));
 
     }
 

@@ -3,12 +3,10 @@ package concurrent;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ConcurrentSortedList {
-
-    private Node head = null;
-    private Node tail = null;
+    private Node head;
+    private Node tail;
 
     private static class Node {
-
         int value;
         Node next, prev;
         ReentrantLock lock = new ReentrantLock();
@@ -61,11 +59,9 @@ public class ConcurrentSortedList {
         return true;
     }
 
-
     public int size() {
         Node current = tail;
         int count = 0;
-
         while (current.prev != head) {
             ReentrantLock lock = current.lock;
             lock.lock();
@@ -74,9 +70,7 @@ public class ConcurrentSortedList {
                 current = current.prev;
             } finally { lock.unlock(); }
         }
-
         return count;
     }
-
 
 }
