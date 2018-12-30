@@ -1,7 +1,6 @@
 package concurrent;
 
-import static org.junit.Assert.*;
-
+import concurrent.ch1.ConcurrentSortedList;
 import java.util.Random;
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package concurrent.wordcount;
+package concurrent.ch1.wordcount;
 
 public class Parser implements Runnable {
 

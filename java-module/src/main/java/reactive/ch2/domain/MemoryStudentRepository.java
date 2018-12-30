@@ -1,9 +1,9 @@
-package reactive.ch2;
+package reactive.ch2.domain;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-class MemoryStudentRepository implements StudentRepository {
+public class MemoryStudentRepository implements StudentRepository {
 
     private ConcurrentMap<Long, Student> students = new ConcurrentHashMap<>();
 

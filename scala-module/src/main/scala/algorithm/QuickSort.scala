@@ -13,8 +13,7 @@ object QuickSort {
   }
 
   def main(args: Array[String]): Unit = {
-    val nins = List(555, 1, 4, 4, 7, -1, 16)
-    val res = sort(nins)
+    val res = sort(List(555, 1, 4, 4, 7, -1, 16))
     println(res)
   }
 

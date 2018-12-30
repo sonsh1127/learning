@@ -1,4 +1,4 @@
-package concurrent.wordcount;
+package concurrent.ch1.wordcount;
 
 import java.util.HashMap;
 

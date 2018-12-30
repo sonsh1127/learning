@@ -1,6 +1,6 @@
-package reactive.ch2;
+package reactive.ch2.domain;
 
-class Student {
+public class Student {
 
     private long id;
     private String name;

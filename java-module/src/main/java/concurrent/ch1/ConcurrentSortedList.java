@@ -1,4 +1,4 @@
-package concurrent;
+package concurrent.ch1;
 
 import java.util.concurrent.locks.ReentrantLock;
 

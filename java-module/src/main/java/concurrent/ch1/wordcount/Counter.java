@@ -1,4 +1,4 @@
-package concurrent.wordcount;
+package concurrent.ch1.wordcount;
 
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
@@ -15,7 +15,6 @@ public class Counter implements Runnable {
 
     @Override
     public void run() {
-
         while (true) {
             Page page = null;
             try {
@@ -23,13 +22,9 @@ public class Counter implements Runnable {
                 if (page.isPoisonPill())
                     break;
                // Iterable<String> words = new Words(page.getText());
-
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
-
         }
-
     }
 }

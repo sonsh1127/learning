@@ -1,6 +1,7 @@
 package reactive.ch1;
 
 import io.reactivex.Observable;
+import io.reactivex.subscribers.TestSubscriber;
 import org.junit.Test;
 
 public class HelloRxJavaCh1 {
@@ -30,26 +31,22 @@ public class HelloRxJavaCh1 {
 
     @Test
     public void merge() throws InterruptedException {
-        Observable<String> a = Observable.create(s -> {
-            new Thread(() -> {
-                s.onNext("ONe");
-                try {
-                    Thread.sleep(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                s.onNext("Two");
-                s.onComplete();
-            }).start();
-        });
+        Observable<String> a = Observable.create(s -> new Thread(() -> {
+            s.onNext("One");
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            s.onNext("Two");
+            s.onComplete();
+        }).start());
 
-        Observable<String> b = Observable.create(s -> {
-            new Thread(() -> {
-                s.onNext("Three");
-                s.onNext("Four");
-                s.onComplete();
-            }).start();
-        });
+        Observable<String> b = Observable.create(s -> new Thread(() -> {
+            s.onNext("Three");
+            s.onNext("Four");
+            s.onComplete();
+        }).start());
 
         Observable<String> c = Observable.merge(a, b);
         c.subscribe(
