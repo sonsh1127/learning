@@ -70,7 +70,7 @@ project(":scala-module") {
     }
 
     dependencies {
-        scalaCompiler "org.scala-lang:scala-compiler:2.12.4"
+        scalaCompiler "org.scala-lang:scala-compiler:2.12.6"
         compile group: 'org.scala-lang', name: 'scala-compiler', version: '2.12.4'
         compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.5.12'
         compile group: 'com.typesafe.akka', name: 'akka-stream_2.12', version: '2.5.12'

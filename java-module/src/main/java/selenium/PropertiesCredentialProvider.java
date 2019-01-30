@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class PropertiesCredentialProvider implements CredentialProvider{
+public class PropertiesCredentialProvider implements CredentialProvider {
 
     Properties prop = new Properties();
 

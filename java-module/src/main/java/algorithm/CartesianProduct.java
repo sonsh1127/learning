@@ -19,14 +19,10 @@ public class CartesianProduct {
         System.out.println();
 
         System.out.println("###### Start to Print Functional CartesianProduct #####");
-
         List<List<String>> res = makeCartesianProduct(list);
         System.out.println(res.size());
         System.out.println(res);
 
-        List<String> words = Arrays.asList("apple", "banana", "carrrot");
-        List<String> upperWords = words.stream().map(String::toUpperCase).collect(Collectors.toList());
-        upperWords.forEach(System.out::println);
     }
 
     static void printCartesianProduct(List<List<String>> list) {

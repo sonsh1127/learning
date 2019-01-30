@@ -16,9 +16,6 @@ public class ManagedBlockerDemo {
         QueueManagedBlocker<String> blocker = new QueueManagedBlocker<String>(bq);
         ForkJoinPool.managedBlock(blocker);
         System.out.println(blocker.getValue());
-
-
-
         //ForkJoinPool.managedBlock(blocker);
     }
 

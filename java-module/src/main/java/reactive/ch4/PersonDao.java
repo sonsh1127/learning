@@ -22,7 +22,7 @@ class PersonDao {
 
     private List<Person> query(String sql, int pageSize, int offset) {
         System.out.println(
-                "Page query executed " + sql + " pageSize " + pageSize + " offset " + offset);
+                "Doc query executed " + sql + " pageSize " + pageSize + " offset " + offset);
         if (offset >= 5) {
             return Collections.emptyList();
         } else {

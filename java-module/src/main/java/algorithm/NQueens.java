@@ -41,9 +41,9 @@ public class NQueens {
         }
     }
 
-    private boolean isPossible(int level, int cadidate) {
+    private boolean isPossible(int level, int candidate) {
         for (int col = 0; col < level; col++) {
-            if (queens[col] == cadidate || level - col == Math.abs(cadidate - queens[col])) {
+            if (queens[col] == candidate || level - col == Math.abs(candidate - queens[col])) {
                 return false;
             }
         }
@@ -51,8 +51,14 @@ public class NQueens {
     }
 
     private void printResult() {
-        System.out.println("RESULT");
-        System.out.println(Arrays.toString(queens));
+        System.out.println("### Solution ###");
+        Arrays.stream(queens).forEach( queen -> {
+            String[] chess = new String[SIZE];
+            Arrays.fill(chess, "#");
+            chess[queen] = "Q";
+            System.out.println(Arrays.toString(chess));
+        });
+        System.out.println();
     }
 
 }

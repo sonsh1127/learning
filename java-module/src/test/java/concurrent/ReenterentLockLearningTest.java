@@ -24,6 +24,7 @@ public class ReenterentLockLearningTest {
                 }
             }
         });
+
         Thread t2 = new Thread(() -> {
             synchronized (o2) {
                 try {
@@ -36,6 +37,7 @@ public class ReenterentLockLearningTest {
                 }
             }
         });
+
         t1.start();
         t2.start();
         Thread.sleep(10 * 1000);
@@ -51,7 +53,6 @@ public class ReenterentLockLearningTest {
     }
 
 
-    @Test
     public static void main(String[] args) throws InterruptedException {
 
         ReentrantLock l1 = new ReentrantLock();

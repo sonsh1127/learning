@@ -7,10 +7,8 @@ import scala.util.{Failure, Success}
 
 class FutureLearingTest {
 
-
   @Test
   def futureWithCallback(){
-
     import scala.concurrent.ExecutionContext.Implicits.global
     val future: Future[List[String]] = Future(
       getList()
