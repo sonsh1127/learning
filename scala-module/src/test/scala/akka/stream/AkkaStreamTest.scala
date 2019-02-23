@@ -12,7 +12,7 @@ import org.junit.Test
 import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future, Promise}
 
-class StreamTest {
+class AkkaStreamTest {
 
   @Test
   def quickStart() {
