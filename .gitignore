@@ -4,6 +4,7 @@
 build/
 *.iml
 package-lock.json
+wiki-dump.xml
 
 **/test.properties
 

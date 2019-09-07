@@ -2,18 +2,21 @@ package reactive.ch1;
 
 import io.reactivex.Observable;
 import io.reactivex.subscribers.TestSubscriber;
+import java.util.concurrent.TimeUnit;
 import org.junit.Test;
 
 public class HelloRxJavaCh1 {
 
     @Test
     public void hello() {
-        Observable.create(s -> {
+        Observable obs = Observable.create(s -> {
             s.onNext("Hello world");
             s.onComplete();
-        }).subscribe(System.out::println);
+        });
 
-        System.out.println("end");
+        obs
+                .test()
+                .assertResult("Hello world");
     }
 
     @Test

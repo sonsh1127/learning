@@ -8,6 +8,6 @@ public class SrtTicketingMain {
         String password = "";
 
         ticketing.login(id, password);
-        ticketing.tryReservation("부산", "수서", "20190206","140000");
+        ticketing.tryReservation("부산", "수서", "20190912","090000");
     }
 }

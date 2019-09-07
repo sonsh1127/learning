@@ -12,11 +12,11 @@ public class TestObserverLearning {
 
     @Test
     public void assertWith() {
-         Observable.interval(100, TimeUnit.MILLISECONDS)
+        Observable.interval(100, TimeUnit.MILLISECONDS)
                 .take(3)
                 .test()
                 .awaitDone(1, TimeUnit.SECONDS)
-                .assertResult(0L,1L,2L);
+                .assertResult(0L, 1L, 2L);
     }
 
 }

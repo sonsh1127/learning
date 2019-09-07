@@ -139,24 +139,26 @@ class Ch5Exercises {
 
   @Test
   def prob2_drop() {
-    val stream = Stream("a", "b", "c")
+    val stream = createStreamVia_cons123
     val dropped = stream.drop(2)
-    val expected = List("c")
+    println("dropped")
+    val expected = List(3)
     assertEquals(expected, dropped.toList)
   }
 
   @Test
   def prob3_takeWhile() {
-    val stream = Stream(1, 3, 5, 8, 6)
-    val res = stream.takeWhile(_ % 2 == 1)
-    val expected = List(1, 3, 5)
-    assertEquals(expected, res.toList)
+    val stream = createStreamVia_cons123
+    val actual = stream.takeWhile(it => it < 3)
+    println("taken")
+    val expected = List(1, 2)
+    assertEquals(expected, actual.toList)
   }
 
   @Test
   def prob4_forAll() {
-    val stream = Stream(1, 2, 3, 100, 1)
-    assertFalse(stream.forAll(_ < 10))
+    val stream = createStreamVia_cons4567
+    assertFalse(stream.forAll(_ < 7))
   }
 
   @Test
@@ -272,7 +274,6 @@ class Ch5Exercises {
 
   @Test
   def prob13_takeViaUnFold() {
-
     val stream = createStreamVia_cons123
     val taken = stream.takeViaUnFold(2)
     println("taken")

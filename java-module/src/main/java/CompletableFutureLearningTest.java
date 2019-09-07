@@ -1,14 +1,12 @@
-
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class Completable {
+public class CompletableFutureLearningTest {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        CompletableFuture<String> name = CompletableFuture
+        java.util.concurrent.CompletableFuture<String> name = java.util.concurrent.CompletableFuture
                 .completedFuture("adb")
                 .thenApply(msg -> first(msg))
                 .thenApply(msg -> second(msg))

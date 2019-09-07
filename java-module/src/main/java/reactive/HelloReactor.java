@@ -20,7 +20,8 @@ public class HelloReactor {
         mono.subscribe(System.out::println);
 
         Flux<String> flux = Flux.just("Apple", "Banana", "Carrot");
-        flux.subscribe(System.out::println, throwable -> {} , ()-> System.out.println("Done"));
+        flux.subscribe(System.out::println, throwable -> {
+        }, () -> System.out.println("Done"));
 
         Flux<String> seq1 = Flux.just("foo", "bar", "foobar");
 
@@ -39,7 +40,9 @@ public class HelloReactor {
     @Test
     public void errorHandling() throws InterruptedException {
         Flux.just("foo")
-                .map(s -> { throw new IllegalArgumentException(s); })
+                .map(s -> {
+                    throw new IllegalArgumentException(s);
+                })
                 .subscribe(v -> System.out.println("GOT VALUE"),
                         e -> System.out.println("ERROR: " + e));
     }
@@ -56,12 +59,14 @@ public class HelloReactor {
     private void retry() throws InterruptedException {
         Flux.interval(Duration.ofMillis(250))
                 .map(input -> {
-                    if (input < 3) return "tick " + input;
+                    if (input < 3) {
+                        return "tick " + input;
+                    }
                     throw new RuntimeException("boom");
                 })
                 .elapsed()
                 .retry(2)
-                .subscribe(System.out::println, (t) -> System.err.println(t + "NIlls") );
+                .subscribe(System.out::println, (t) -> System.err.println(t + "NIlls"));
         Thread.sleep(5100);
     }
 
@@ -76,7 +81,7 @@ public class HelloReactor {
                         .onErrorResume(e -> Flux.just("aaaaa"));
     }
 
-    public static Flux<String> makeFlux(String value){
+    public static Flux<String> makeFlux(String value) {
         return Flux.just(value);
     }
 
@@ -84,7 +89,9 @@ public class HelloReactor {
     public void scheduler() {
         Flux.range(1, 10000)
                 .publishOn(Schedulers.parallel())
-                .subscribe((t) -> { System.out.println(Thread.currentThread() + ", " + t);});
+                .subscribe((t) -> {
+                    System.out.println(Thread.currentThread() + ", " + t);
+                });
         try {
             Thread.sleep(55000);
         } catch (InterruptedException e) {
