@@ -13,7 +13,7 @@ public class JavaFxMain extends Application {
     }
 
     @Override
-    public void init() throws Exception {
+    public void init() {
         System.out.println(Thread.currentThread().getName() + ": init() 호출");
     }
 
@@ -25,7 +25,7 @@ public class JavaFxMain extends Application {
     }
 
     @Override
-    public void stop() throws Exception {
+    public void stop() {
         System.out.println(Thread.currentThread().getName() + ": stop() 호출");
     }
 

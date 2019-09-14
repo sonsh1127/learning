@@ -7,11 +7,11 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebElement;
-import org.openqa.selenium.support.ui.Quotes;
-import org.openqa.selenium.support.ui.Select;
 
 public class ChromeDriverSrtTicketing {
 
+    private static final String SRT_LOGIN_PAGE_URL = "https://etk.srail.co.kr/cmc/01/selectLoginForm.do?pageId=TK0701000000";
+    private static final String searchPage = "https://etk.srail.co.kr/hpg/hra/01/selectScheduleList.do?pageId=TK0101010000";
     private ChromeDriver driver;
 
     private long retryTimeDuration = 5000L;
@@ -30,32 +30,39 @@ public class ChromeDriverSrtTicketing {
      */
     public void tryReservation(String from, String to, String date, String time) {
 
-        fillSearchForm(driver, from, to, date, time);
+        navigate(searchPage);
+
+        fillSearchForm(from, to, date, time);
 
         while (true) {
-            sendSearchRequest(driver);
+            clickSearchButton();
+            waitFor(httpResponseWaitTime);
             if (reservationIsAvailable()) {
-                reserve(driver);
+                reserve();
                 return;
             }
             waitFor(retryTimeDuration);
         }
     }
 
-    private void reserve(ChromeDriver driver) {
-        WebElement resultElement = driver.findElementById("result-form");
-        WebElement tbody = resultElement.findElement(By.tagName("tbody"));
+    private void fillSearchForm(String departStation,
+            String arriveStation, String date, String fromTime) {
 
-        List<WebElement> tableRows = tbody.findElements(By.tagName("tr"));
-        for (WebElement tr : tableRows) {
-            WebElement button = findReserveButton(tr);
-            if (button != null) {
-                button.click();
-                System.out.println("RESERVATION SUCCESS");
-                break;
-            }
+        WebElement depart = driver.findElementById("dptRsStnCdNm");
+        WebElement arrive = driver.findElementById("arvRsStnCdNm");
+        depart.clear();
+        arrive.clear();
+        depart.sendKeys(departStation);
+        arrive.sendKeys(arriveStation);
 
-        }
+        driver.executeScript("document.getElementById('dptDt').value = arguments[0]", date);
+        driver.executeScript("document.getElementById('dptTm').value = arguments[0]", fromTime);
+    }
+
+    private void clickSearchButton() {
+        driver.executeScript(
+                "document.getElementsByClassName('btn_large wx200 btn_burgundy_dark2 val_m corner inquery_btn')[0].click()"
+        );
     }
 
     private boolean reservationIsAvailable() {
@@ -67,99 +74,62 @@ public class ChromeDriverSrtTicketing {
 
     private WebElement findReserveButton(WebElement parent) {
         try {
-            WebElement button = parent.findElement(By.xpath("td[7]/a"));
-            WebElement span = button.findElement(By.tagName("span"));
-            System.out.println("#####################" + span.getText());
+            WebElement generalSeatButton = parent.findElement(By.xpath("td[7]/a"));
+            WebElement span = generalSeatButton.findElement(By.tagName("span"));
             if ("예약하기".equals(span.getText())) {
-                return button;
+                return generalSeatButton;
             } else {
                 return null;
             }
         } catch (NoSuchElementException e) {
-            System.out.println(e.getMessage());
             return null;
         }
     }
 
-    private void sendSearchRequest(ChromeDriver driver) {
-        //WebElement buttonParent = driver.findElementByClassName("btn_large");
-        /*List<WebElement> input = buttonParent.findElements(By.tagName("input"));
-        input.get(0).click();*/
-        //buttonParent.click();
+    private void reserve() {
+        WebElement resultElement = driver.findElementById("result-form");
+        WebElement tbody = resultElement.findElement(By.tagName("tbody"));
 
-        driver.executeScript(
-                "document.getElementsByClassName('btn_large wx200 btn_burgundy_dark2 val_m corner inquery_btn')[0].click()");
-        //document.getElementsByClassName("aa bb");
-        waitFor(2000);
-    }
-
-    private void fillSearchForm(ChromeDriver driver, String departStation,
-            String arriveStation, String date, String fromTime) {
-
-        String reservationPage = "https://etk.srail.co.kr/hpg/hra/01/selectScheduleList.do?pageId=TK0101010000";
-        this.driver.get(reservationPage);
-
-        WebElement depart = driver.findElementById("dptRsStnCdNm");
-        WebElement arrive = driver.findElementById("arvRsStnCdNm");
-        depart.clear();
-        arrive.clear();
-        depart.sendKeys(departStation);
-        arrive.sendKeys(arriveStation);
-
-        JavascriptExecutor js = driver;
-
-        js.executeScript("document.getElementById('dptDt').value = arguments[0]", date);
-        js.executeScript("document.getElementById('dptTm').value = arguments[0]", fromTime);
-
-        /*WebElement dateElem = ((RemoteWebElement) searchForm).findElementByXPath(
-                "//fieldset/div[@class=\"box1\"]/div/div/div[3]/div[1]/a/span[@class=\"ui-selectmenu-text\"]");
-
-        WebElement timeElem = ((RemoteWebElement) searchForm).findElementByXPath(
-                "//fieldset/div[@class=\"box1\"]/div/div/div[3]/div[2]/a/span[@class=\"ui-selectmenu-text\"]");*/
-
-        //System.out.println(dateElem.getText());
-
-        //System.out.println(timeElem.getText());
-    }
-
-
-    private void setSelected(WebElement option, boolean select) {
-        boolean isSelected = option.isSelected();
-        if ((!isSelected && select) || (isSelected && !select)) {
-            option.click();
+        List<WebElement> tableRows = tbody.findElements(By.tagName("tr"));
+        for (WebElement tr : tableRows) {
+            WebElement button = findReserveButton(tr);
+            if (button != null) {
+                button.click();
+                System.out.println("Reservation Button clicked!!");
+                break;
+            }
         }
     }
 
-    public void selectByValue(String value, WebElement element) {
-        List<WebElement> options = ((RemoteWebElement) element)
-                .findElementsByXPath(".//option[@value=\"" + value + "\"]");
-
-        boolean matched = false;
-        for (WebElement option : options) {
-            setSelected(option, true);
-
-            matched = true;
-        }
-
-        if (!matched) {
-            throw new NoSuchElementException("Cannot locate option with value: " + value);
-        }
+    private void navigate(String page) {
+        this.driver.get(page);
     }
 
     public void login(String id, String password) {
-        String loginPage = "https://etk.srail.co.kr/cmc/01/selectLoginForm.do?pageId=TK0701000000";
-        driver.get(loginPage);
+        navigate(SRT_LOGIN_PAGE_URL);
+        waitFor(httpResponseWaitTime);
+
+        fillLoginForm(id, password);
+
+        clickLoginButton();
 
         waitFor(httpResponseWaitTime);
-        String srchDvNm01 = "srchDvNm01";
-        WebElement idInput = driver.findElementById(srchDvNm01);
-        idInput.sendKeys(id);
+    }
+
+    private void fillLoginForm(String id, String password) {
+        String idInputElementId = "srchDvNm01";
         String passwordElementId = "hmpgPwdCphd01";
+
+        WebElement idInput = driver.findElementById(idInputElementId);
         WebElement pwdInput = driver.findElementById(passwordElementId);
+
+        idInput.sendKeys(id);
         pwdInput.sendKeys(password);
+    }
+
+    private void clickLoginButton() {
         WebElement submit = driver.findElementByClassName("submit");
         submit.click();
-        waitFor(httpResponseWaitTime);
     }
 
     private ChromeDriver initChromeDriver() {
